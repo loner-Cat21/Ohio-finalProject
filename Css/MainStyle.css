@@ -74,6 +74,11 @@ Start your CSS here */
         flex-direction: column-reverse;
     }
   }
+.contain{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 .dummy_page {
   height: 200px;
