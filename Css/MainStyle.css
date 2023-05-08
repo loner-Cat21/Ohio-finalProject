@@ -10,7 +10,7 @@ Start your CSS here */
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #006699;
+    background-color: #000000;
     display: flex;
     width: 100%;
     position: sticky;
@@ -18,7 +18,9 @@ Start your CSS here */
     justify-content: space-between;
 
   }
-  
+  .itemsHolder .active{
+    text-decoration: underline;
+  }  
   /* Style the links inside the navigation bar */
   .itemsHolder a {
     float: right;
@@ -50,6 +52,7 @@ Start your CSS here */
     .itemsHolder a.icon {
       float: right;
       display: block;
+      
     }
   }
   
@@ -57,7 +60,6 @@ Start your CSS here */
   @media screen and (max-width: 600px) {
     .itemsHolder.responsive {position: relative;}
     .itemsHolder.responsive a.icon {
-      position: absolute;
       right: 0;
       top: 0;
       place-items: right;
@@ -65,6 +67,10 @@ Start your CSS here */
     .topnav.responsive a {
       float: none;
       display: block;
-      text-align: left;
+      text-align: right;
+    }
+    .itemsHolder{
+        display: flex;
+        flex-direction: column-reverse;
     }
   }
