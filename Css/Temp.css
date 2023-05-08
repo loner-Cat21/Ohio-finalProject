@@ -1,6 +1,83 @@
+/* Color pallet
+blue = #006699
+green = #339933
+black - #000000
+yellow = #ffcc33
+orange = #ff3333
+
+Start your CSS here */
+
+
 .smallImage{
-width:50%;
+    display: block;
+     width:200px;
+     height: 200px;
+    margin: auto;
 }
 .cardFD{
-    width: 100px;
+    width: 300px;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+     border-radius: 6px;
+    border-style: double;
+}
+.cardFD a{
+    color: black;
+    text-decoration: none;
+   transition: all 1s ease;
+}
+.cardFD a:hover{
+    transition: all 1s ease;
+    text-size-adjust: 10px;
+} 
+
+.foodCards{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.overlay {
+    position: relative;
+
+  bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+   
+  }
+  .cardFD:hover .overlay {
+   
+  height: 100%;
+  }
+  .cardFD:hover{ 
+   transition: .5s ease;
+   
+  }
+
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.LinksForWebsite a{
+    padding: 10px;
+    color: white;
+}
+.LinksForWebsite a:hover{
+    font-size: larger;
+    color: rgb(0, 0, 0);
 }
