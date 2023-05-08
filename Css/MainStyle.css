@@ -16,7 +16,7 @@ Start your CSS here */
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
+    float: right;
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -30,13 +30,7 @@ Start your CSS here */
     background-color: #ddd;
     color: black;
   }
-  
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
+    
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
