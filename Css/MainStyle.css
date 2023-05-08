@@ -14,6 +14,9 @@ Start your CSS here */
     display: flex;
     width: 100%;
     position: sticky;
+    flex-direction: row;
+    justify-content: space-between;
+
   }
   
   /* Style the links inside the navigation bar */
