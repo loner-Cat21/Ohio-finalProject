@@ -1,98 +1,175 @@
-/* Color pallet
-blue = #006699
-green = #339933
-black - #000000
-yellow = #ffcc33
-orange = #ff3333
+    /* Color pallet
+    blue = #006699
+    green = #339933
+    black - #000000
+    yellow = #ffcc33
+    orange = #ff3333
 
-Start your CSS here */
+    Start your CSS here */
 
 
-.smallImage{
-    display: block;
-     width:200px;
-     height: 200px;
-    margin: auto;
-}
-.cardFD{
-    width: 300px;
-    margin: 40px;
-    padding: 10px;
-    text-align: center;
-     border-radius: 6px;
-    border-style: double;
-}
-.cardFD a{
-    color: black;
-    text-decoration: none;
-   transition: all 1s ease;
-}
-.cardFD a:hover{
+    .smallImage{
+        display: block;
+        width:200px;
+        height: 200px;
+        margin: auto;
+    }
+    .cardFD{
+        width: 300px;
+        margin: 40px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 6px;
+        border-style: double;
+    }
+    .cardFD a{
+        color: black;
+        text-decoration: none;
     transition: all 1s ease;
-    text-size-adjust: 10px;
-} 
+    }
+    .cardFD a:hover{
+        transition: all 1s ease;
+        text-size-adjust: 10px;
+    } 
 
-.foodCards{
+    .foodCards{
+        position: relative;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* w3schools helped with the dropdowns */
+    .overlay {
+        position: relative;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+    
+    } 
+    
+    .overlay2 {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 100%;
+        height:0;
+        transition: .5s ease;
+    }
+    .cardFD:hover .overlay {
+         height: 100%;
+    }
+    .cardFD:hover{ 
+    transition: .5s ease;
+    
+    }
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+   
+    .text2{
+        
+        color: white;
+        font-size: 19px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 9px;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .LinksForWebsite a{
+        padding: 10px;
+        color: white;
+    }
+
+    .LinksForWebsite a:hover{
+        font-size: larger;
+        
+    }
+    .center{
+        text-align: center;
+        margin: 30px;
+        font-size: 50px;
+    }
+    .AtractionCardCollection a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    transition: all 1s ease;
+    }
+    .AtractionCardCollection {
     position: relative;
-    justify-content: center;
     display: flex;
     flex-wrap: wrap;
-}
-.overlay {
-    position: relative;
-  bottom: 100%;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 100%;
-    height:0;
-    transition: .5s ease;
-   
-  }
-  .cardFD:hover .overlay {
-   
-  height: 100%;
-  }
-  .cardFD:hover{ 
-   transition: .5s ease;
-   
-  }
-
-
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-.text2{
-    color: white;
-    font-size: 10px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.LinksForWebsite a{
-    padding: 10px;
-    color: white;
-}
-
-.LinksForWebsite a:hover{
+    justify-content: center;
+    }
+    .AtractionCardCollection a:hover{
     font-size: larger;
     color: rgb(0, 0, 0);
-}
-.center{
+    }  
+
+    .atractionCard{
+        margin: 20px;
+        text-align: center;
+        position: relative;
+        width: auto;
+        height: fit-content;
+    }
+
+    .atractionCard:hover .overlay2 {
+        bottom: 0;
+        height: 100%;
+        }
+
+    .smallImage2{ 
+        display: block;
+        width:600px;
+    }
+.atractionCard:hover{ 
+        transition: .5s ease;
+        
+        }
+
+
+
+
+
+
+
+
+
+
+        
+    @media screen and (max-width: 900px){
+    .AtractionImage{
+        width: 400px;
+    }
+    .overlay2{
+        width: 400px;
+    }
+    .text2{
+        font-size: small;
     text-align: center;
-    margin: 30px;
-    font-size: 50px;
-}
+    top: 45%;
+    }
+    .AtractionCardCollection{
+        justify-content: center;
+    }
+    }
