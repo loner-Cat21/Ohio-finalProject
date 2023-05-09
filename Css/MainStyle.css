@@ -43,7 +43,7 @@ Start your CSS here */
     display: none;
   }
   .logo{
-    display: block;
+    background-color: none;
     
   }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -93,7 +93,8 @@ Start your CSS here */
   width: 100%;
   position: relative;
   height: auto;
-  background-color: #070617;
+  background-color: #000;
+  display: grid;
 }
 .footer .col {
   width: 190px;
@@ -111,7 +112,7 @@ Start your CSS here */
   font-size: 12px;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.4);
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.25em;
