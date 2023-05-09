@@ -40,7 +40,6 @@ Start your CSS here */
 }
 .overlay {
     position: relative;
-
   bottom: 100%;
     left: 0;
     right: 0;
@@ -72,12 +71,28 @@ Start your CSS here */
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
+.text2{
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
 .LinksForWebsite a{
     padding: 10px;
     color: white;
 }
+
 .LinksForWebsite a:hover{
     font-size: larger;
     color: rgb(0, 0, 0);
+}
+.center{
+    text-align: center;
+    margin: 30px;
+    font-size: 50px;
 }
