@@ -18,6 +18,9 @@ Start your CSS here */
     justify-content: space-between;
 
   }
+  .active{
+    text-decoration: underline;
+  }
   .itemsHolder .active{
     text-decoration: underline;
   }  
