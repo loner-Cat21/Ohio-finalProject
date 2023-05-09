@@ -102,7 +102,7 @@ Start your CSS here */
   background-size: cover;
   filter: alpha(opacity=10);
 } */
-body::after {
+.indexBody::after {
   content: "";
   background: url(../images/columbusBackground.jpg);
   background-repeat: no-repeat;
