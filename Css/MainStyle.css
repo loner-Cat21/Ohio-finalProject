@@ -107,7 +107,7 @@ body::after {
   background: url(../images/columbusBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: #000 0.75;
+  opacity: 0.75;
   top: 0;
   left: 0;
   bottom: 0;
