@@ -148,6 +148,7 @@ body::after {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 .footer .col ul li {
   color: #999999;
@@ -159,6 +160,9 @@ body::after {
   transition: 0.2s;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
+}
+.footer .col ul a{
+  text-decoration: none;
 }
 .social ul li {
   display: inline-block;
