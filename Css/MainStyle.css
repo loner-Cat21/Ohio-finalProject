@@ -16,6 +16,7 @@ Start your CSS here */
     position: sticky;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
   }
   .active{
@@ -55,6 +56,9 @@ Start your CSS here */
       float: right;
       display: block;
       
+    }
+    .topnav{
+      align-items: flex-start;
     }
   }
   
