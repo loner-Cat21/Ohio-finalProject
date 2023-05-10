@@ -1,5 +1,5 @@
 /* Color pallet
-blue = #006699
+blue = #00539b
 green = #339933
 black - #000000
 yellow = #ffcc33
@@ -12,12 +12,13 @@ Start your CSS here */
 .topnav {
     background-color: #000000;
     display: flex;
-    width: 100%;
     position: sticky;
+    margin: 0 0 1em 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    padding: 1rem;
+    width: 100%;
   }
   .active{
     text-decoration: underline;
@@ -30,7 +31,7 @@ Start your CSS here */
     float: right;
     color: #f2f2f2;
     text-align: center;
-    padding: 5px;
+    padding: 7px;
     margin: 7px;
     text-decoration: none;
     font-size: 17px;
@@ -102,6 +103,11 @@ Start your CSS here */
   background-size: cover;
   filter: alpha(opacity=10);
 } */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans&family=Oswald:wght@300&family=Roboto&display=swap');
+.welcome{
+  font-family: 'Dancing Script';
+  font-size: 8rem;
+}
 .indexBody::after {
   content: "";
   background: url(../images/columbusBackground.jpg);
