@@ -1,5 +1,5 @@
     /* Color pallet
-    blue = #006699
+    blue = #00539b
     green = #339933
     black - #000000
     yellow = #ffcc33
@@ -44,7 +44,7 @@
         bottom: 100%;
         left: 0;
         right: 0;
-        background-color: #008CBA;
+        background-color: #00539b;
         overflow: hidden;
         width: 100%;
         height:0;
@@ -57,7 +57,7 @@
         bottom: 100%;
         left: 0;
         right: 0;
-        background-color: #008CBA;
+        background-color: #00539b;
         overflow: hidden;
         width: 100%;
         height:0;
@@ -172,4 +172,38 @@
     .AtractionCardCollection{
         justify-content: center;
     }
+    .otherworld p{
+margin: 5px;
+
+    }
+    .otherworldheading{
+        margin: 10px;
+    }
+    }
+    .up{
+        position: relative;
+        top:-160px;
+    }
+    .up2{
+        position: relative;
+        top:-180px; 
+    }
+    .up3{
+        position: relative;
+        top:-150px; 
+    }
+    @media screen and (max-width: 1330px){
+        .up{
+            position: relative;
+            top:0px;
+        }
+        .up2{
+            position: relative;
+            top:0px; 
+        }
+        .up3{
+            position: relative;
+            top:0px; 
+        }
+    
     }
