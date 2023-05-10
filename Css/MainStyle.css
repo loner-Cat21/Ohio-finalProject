@@ -267,6 +267,12 @@ Start your CSS here */
   width: 50%;
   padding: 5px;
 }
+@media only screen and (max-width: 500px) {
+  .cardContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
 .card{
   display: grid;
   margin: 2rem;
