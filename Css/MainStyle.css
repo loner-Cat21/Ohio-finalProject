@@ -267,9 +267,8 @@ Start your CSS here */
   width: 50%;
   padding: 5px;
 }
-@media only screen and (max-width: 500px) {
-  .cardContainer{
-    display: grid;
+@media screen and (max-width: 992px) {
+  .cardContainer {
     grid-template-columns: 1fr;
   }
 }
