@@ -273,8 +273,8 @@ Start your CSS here */
   padding: 1rem;
 }
 .cardImage{
-  width: 50px;
-
+  display: flex;
+  flex-direction: column;
 }
 .imgcard{
   width: 200px;
