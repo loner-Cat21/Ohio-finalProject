@@ -270,16 +270,18 @@ Start your CSS here */
 .card{
   display: grid;
   margin: 2rem;
-  padding: 1rem;
+  background-color: #cfcfcf;
 }
 .cardImage{
   display: flex;
   flex-direction: column;
 }
 .imgcard{
-  width: 200px;
+  width: 250px;
+  height: 200px;
 }
 .buttonCard{
+  display: flex;
   background-color: #00539b;
   padding: 10px;
   border-radius: 10px;
@@ -287,8 +289,13 @@ Start your CSS here */
   font-size: medium;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 10px;
+  
 }
-.card{
 
+.cardText{
+  text-align: center;
+  font-size:medium;
+  font-weight: bolder;
+  padding:5px;
 }
