@@ -9,6 +9,21 @@ Start your CSS here */
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Kumbh+Sans&family=Oswald:wght@300&family=Roboto&display=swap');
 
 /* Add a black background color to the top navigation */
+.book{
+  padding: 1rem;
+  background-color: #00539b;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 25px 1px rgba(0,0,0,0.75);
+  transition: .3s ease-in-out;
+
+
+}
+.book :hover{
+  box-shadow: 0px 0px 33px 6px rgba(0,0,0,0.75);
+
+
+}
 .topnav {
     background-color: #000000;
     display: flex;
@@ -18,7 +33,6 @@ Start your CSS here */
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    width: 100%;
   }
   .active{
     text-decoration: underline;
