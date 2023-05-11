@@ -267,28 +267,49 @@ Start your CSS here */
   width: 50%;
   padding: 5px;
 }
+@media screen and (max-width: 992px) {
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}
 .card{
   display: grid;
   margin: 2rem;
-  padding: 1rem;
+  background-color: #cfcfcf;
+  box-shadow: 0px 0px 24px -5px rgba(0,0,0,0.75);
+}
+.card:hover{
+  box-shadow: 0px 0px 39px -2px rgba(0,0,0,0.75);
+  transition: .2s ease-in-out;
+
 }
 .cardImage{
   display: flex;
   flex-direction: column;
 }
 .imgcard{
-  width: 200px;
+  width: 250px;
+  height: 200px;
+}
+.cardText{
+  text-align: center;
+  font-size:medium;
+  font-weight: bolder;
+  padding:5px;
+}
+.cardbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  margin: 50%;
 }
 .buttonCard{
+  display: flex;
   background-color: #00539b;
   padding: 10px;
   border-radius: 10px;
   color: #ffffff;
   font-size: medium;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-.card{
-
+  margin: 10px; 
 }
