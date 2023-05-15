@@ -207,3 +207,11 @@ margin: 5px;
         }
     
     }
+.MainAboutPage{
+    display: flex;
+}
+@media screen and (max-width: 600px){
+.imageOfOhio{
+height: 0;
+}
+}
