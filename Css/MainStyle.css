@@ -343,3 +343,11 @@ Start your CSS here */
   background-image: url('../images/clouds.webp');
   border-radius: 2rem;
 }
+.temp{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.temp p{
+  margin-right: 15px;
+}
