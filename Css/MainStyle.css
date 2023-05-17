@@ -333,3 +333,13 @@ Start your CSS here */
   padding: 1rem;
   
 }
+.weatherContainer{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  background-image: url('../images/clouds.webp');
+  border-radius: 2rem;
+}
