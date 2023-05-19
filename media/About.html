@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Document</title>
+    <title>About Ohio</title>
     
 </head>
-<body>
+<body onload="getInfo();">
     <div class="topnav" id="myTopnav">
         <div class="logo">
             <a href="index.html"><img style="width: 10rem; margin: 1rem;" src="../images/ColumbusLogo.png"></a>
@@ -23,22 +23,37 @@
             <a href="Transportation.html">Transportation</a>
             <a href="atractions.html">Attractions</a>
             <a href="food.html">Food</a>
+            <a href="WorksCited.html">Works Cited</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                 <i class="fa fa-bars"></i>
             </a>
         </div>
     </div>
 <div class="MainAboutPage">
-<img src="../images/ohio.jpg" alt="image of ohio" class="imageOfOhio">
+<img src="../images/ohio.jpg" style="width:15rem; margin:1rem;" alt="image of ohio" class="imageOfOhio">
 <div><h1>Ohio, The Heart of it All</h1> 
-   <p>(this is a bunch of giberish)<br>We resource practices is are possibility, company work engagement. A world-classume recognized mance 
-  of share advantal. People a few promote company with the improvement - increased they elemental. People 
-  and practically people to company will inconce source of the competitors ago; and custome advant the competencies: 
-  People will deve responsibility is a likely perategically critive levelopment of the formanagers' new
-   producturesponsibility and cused on ource of competitical to impromote company wit</p></div>
+   <p class="AboutOhio">Ohio is a state in the United States of America located on the northeastern edge of the Midwest region. Lake Erie 
+    borders the north, Pennsylvania borders the east, West Virginia and Kentucky border the southeast and south, Indiana 
+    borders the west, and Michigan borders the northwest.<br><br>Temperatures in Ohio are similar to those in the north-central 
+    and eastern United States, with summer highs seldom exceeding 100 degrees Fahrenheit and winter lows rarely falling 
+    below 20 degrees Fahrenheit. On a typical July day, the temperature will range from the mid-60s F to the mid-80s F, 
+    although it will reach a high in the mid-30s F in January.</p></div>
           
         
 </div>
+
+<h2>Check out columbus Ohio's weather right now</h2>
+<div class="weatherContainer">
+  <h3>Weather in Columbus</h3>
+  <p id="currentTemp">Temperature: </p>
+  <img id="iconWeather">
+  <div class="temp">
+    <p id="minTemp">Min:</p>
+    <p id="maxTemp">Max:</p>
+
+  </div>
+</div>
+
 
     <br>
         <!-- FOOTER START -->

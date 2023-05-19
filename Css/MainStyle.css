@@ -327,3 +327,32 @@ Start your CSS here */
   font-size: medium;
   margin: 10px; 
 }
+.AboutOhio{
+  font-size: large;
+  margin: 2rem;
+  padding: 1rem;
+  
+}
+.weatherContainer{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  background-image: url('../images/clouds.webp');
+  border-radius: 2rem;
+  background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+
+}
+.temp{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+.temp p{
+  margin-right: 15px;
+  font-weight: bold;
+}
